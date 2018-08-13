@@ -27,7 +27,8 @@
     "https://socket03.etherdelta.com",
     "https://socket04.etherdelta.com",
     "https://socket05.etherdelta.com",
-    "https://socket06.etherdelta.com"
+    "https://socket06.etherdelta.com",
+    "https://api.forkdelta.com"
   ],
   "userCookie": "EtherDelta",
   "eventsCacheCookie": "EtherDelta_eventsCache",
