@@ -6377,14 +6377,6 @@ return validator.normalizeEmail = function(email, options) {
                     }, "chat"))), React.createElement("li", {
                         className: "dropdown-item"
                     }, React.createElement("a", {
-                        href: "https://www.reddit.com/r/EtherDelta",
-                        target: "_blank"
-                    }, React.createElement("i", {
-                        className: "fab fa-reddit-alien",
-                        "aria-hidden": "true"
-                    }), " Reddit")), React.createElement("li", {
-                        className: "dropdown-item"
-                    }, React.createElement("a", {
                         href: "https://twitter.com/etherdelta",
                         target: "_blank"
                     }, React.createElement("i", {
