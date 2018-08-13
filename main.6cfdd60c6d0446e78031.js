@@ -6377,14 +6377,6 @@ return validator.normalizeEmail = function(email, options) {
                     }, "chat"))), React.createElement("li", {
                         className: "dropdown-item"
                     }, React.createElement("a", {
-                        href: "https://twitter.com/etherdelta",
-                        target: "_blank"
-                    }, React.createElement("i", {
-                        className: "fab fa-twitter",
-                        "aria-hidden": "true"
-                    }), " Twitter")), React.createElement("li", {
-                        className: "dropdown-item"
-                    }, React.createElement("a", {
                         href: "http://etherboost.us13.list-manage.com/subscribe?u=6ad46e524f84c79c4d8475e91&id=b7675dc8dd",
                         target: "_blank"
                     }, React.createElement("i", {
