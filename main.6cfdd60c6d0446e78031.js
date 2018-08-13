@@ -6384,7 +6384,7 @@ return validator.normalizeEmail = function(email, options) {
                         "aria-hidden": "true"
                     }), " Reddit")), React.createElement("li", {
                         className: "dropdown-item"
-                    },React.createElement("a", {
+                    }, React.createElement("a", {
                         href: "https://twitter.com/etherdelta",
                         target: "_blank"
                     }, React.createElement("i", {
