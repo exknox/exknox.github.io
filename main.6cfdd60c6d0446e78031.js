@@ -6377,16 +6377,6 @@ return validator.normalizeEmail = function(email, options) {
                     }, "chat"))), React.createElement("li", {
                         className: "dropdown-item"
                     }, React.createElement("a", {
-                        href: "http://etherboost.us13.list-manage.com/subscribe?u=6ad46e524f84c79c4d8475e91&id=b7675dc8dd",
-                        target: "_blank"
-                    }, React.createElement("i", {
-                        className: "fa fa-envelope",
-                        "aria-hidden": "true"
-                    }), " ", React.createElement("span", {
-                        className: "trn"
-                    }, "mailing_list"))), React.createElement("li", {
-                        className: "dropdown-item"
-                    }, React.createElement("a", {
                         href: "https://www.reddit.com/r/EtherDelta/comments/6hrvwl/how_fees_work/",
                         target: "_blank"
                     }, React.createElement("i", {
