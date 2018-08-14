@@ -9128,7 +9128,7 @@ return validator.normalizeEmail = function(email, options) {
                     eventLabel: name
                 })
             }, self.checkContractUpgrade = function() {
-                self.selectedContract && self.selectedContract !== self.config.contractEtherDeltaAddrs[0] && self.accounts.length >= 1 && self.dialogInfo('<p>Exknox has a new smart contract. It is now selected.</p><p>Please use the "Smart Contract" menu to select the old one and withdraw from it.</p><p><a href="javascript:;" class="btn btn-default" onclick="alertify.closeAll();</p>')
+                self.selectedContract && self.selectedContract !== self.config.contractEtherDeltaAddrs[0] && self.accounts.length >= 1 && self.dialogInfo('<p>ExKnox has a new smart contract. It is now selected.</p><p>Please use the "Smart Contract" menu to select the old one and withdraw from it.</p><p><a href="javascript:;" class="btn btn-default" onclick="alertify.closeAll();</p>')
             }, self.initData = function(initMarket, callback) {
                 async.parallel([function(callbackParallel) {
                     !initMarket && self.state.returnTicker && self.state.trades && self.state.orders && self.state.myTrades && self.state.myFunds && self.state.myOrders || !self.socket || self.selectedContract !== self.config.contractEtherDeltaAddrs[0].addr ? callbackParallel() : (self.socket.emit("getMarket", {
@@ -11174,7 +11174,7 @@ return validator.normalizeEmail = function(email, options) {
             ko: "깊이"
         },
         only_7_days: {
-            en: "Note: Exknox will only show recent transactions.",
+            en: "Note: ExKnox will only show recent transactions.",
             cn: "注意：ExKnox只会显示最近的交易。",
             fr: "Remarque: ExKnox affichera uniquement les transactions récentes.",
             es: "Nota: ExKnox sólo mostrará transacciones recientes.",
