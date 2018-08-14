@@ -9128,7 +9128,7 @@ return validator.normalizeEmail = function(email, options) {
                     eventLabel: name
                 })
             }, self.checkContractUpgrade = function() {
-                self.selectedContract && self.selectedContract !== self.config.contractEtherDeltaAddrs[0] && self.accounts.length >= 1 && self.dialogInfo('<p>EtherDelta has a new smart contract. It is now selected.</p><p>Please use the "Smart Contract" menu to select the old one and withdraw from it.</p><p><a href="javascript:;" class="btn btn-default" onclick="alertify.closeAll();</p>')
+                self.selectedContract && self.selectedContract !== self.config.contractEtherDeltaAddrs[0] && self.accounts.length >= 1 && self.dialogInfo('<p>Exknox has a new smart contract. It is now selected.</p><p>Please use the "Smart Contract" menu to select the old one and withdraw from it.</p><p><a href="javascript:;" class="btn btn-default" onclick="alertify.closeAll();</p>')
             }, self.initData = function(initMarket, callback) {
                 async.parallel([function(callbackParallel) {
                     !initMarket && self.state.returnTicker && self.state.trades && self.state.orders && self.state.myTrades && self.state.myFunds && self.state.myOrders || !self.socket || self.selectedContract !== self.config.contractEtherDeltaAddrs[0].addr ? callbackParallel() : (self.socket.emit("getMarket", {
@@ -11034,11 +11034,11 @@ return validator.normalizeEmail = function(email, options) {
             ko: "한국어"
         },
         title: {
-            en: "EtherDelta",
-            cn: "EtherDelta",
-            fr: "EtherDelta",
-            es: "EtherDelta",
-            ko: "EtherDelta"
+            en: "ExKnox",
+            cn: "ExKnox",
+            fr: "ExKnox",
+            es: "ExKnox",
+            ko: "ExKnox"
         },
         info: {
             en: "Info",
@@ -11175,10 +11175,10 @@ return validator.normalizeEmail = function(email, options) {
         },
         only_7_days: {
             en: "Note: Exknox will only show recent transactions.",
-            cn: "注意：EtherDelta只会显示最近的交易。",
-            fr: "Remarque: EtherDelta affichera uniquement les transactions récentes.",
-            es: "Nota: EtherDelta sólo mostrará transacciones recientes.",
-            ko: "참고: EtherDelta는 최근 거래내역만 표시합니다."
+            cn: "注意：ExKnox只会显示最近的交易。",
+            fr: "Remarque: ExKnox affichera uniquement les transactions récentes.",
+            es: "Nota: ExKnox sólo mostrará transacciones recientes.",
+            ko: "참고: ExKnox는 최근 거래내역만 표시합니다."
         },
         announcements: {
             en: "Announcements",
@@ -11489,11 +11489,11 @@ return validator.normalizeEmail = function(email, options) {
             ko: "지갑"
         },
         balance_etherdelta: {
-            en: "EtherDelta",
-            cn: "EtherDelta",
-            fr: "EtherDelta",
-            es: "EtherDelta",
-            ko: "EtherDelta"
+            en: "ExKnox",
+            cn: "ExKnox",
+            fr: "ExKnox",
+            es: "ExKnox",
+            ko: "ExKnox"
         },
         amount: {
             en: "Amount",
@@ -11754,11 +11754,11 @@ return validator.normalizeEmail = function(email, options) {
             ko: '목록에 표시되지 않는 토큰을 거래하시려면 "기타"를 선택하시고 양식을 작성해주세요. 토큰들은 각각 서로 다른 비율을 가지므로 양식을 신중하게 작성하셔야 합니다.'
         },
         trade_3: {
-            en: "EtherDelta supports resting orders (adding liquidity) and trading against existing resting orders (taking liquidity).",
-            cn: 'EtherDelta支持"待定下单"（resting order）来增加流动性，以及交易"待定下单"来减少流动性。',
-            fr: "EtherDelta supportes les ordres restant (l'ajout de liquidite) et marchander contre des ordres restant (prise de liquidite).",
-            es: "EtherDelta apoya descansando órdenes tales como la adición de liquidez y el comercio contre órdenes existentes como descansando Tomando liquidez..",
-            ko: "EtherDelta는 주문목록에 남아있는 주문(유동성 추가)과 존재하는 주문에 대응하는 거래(유동성 인수)를 지원합니다."
+            en: "ExKnox supports resting orders (adding liquidity) and trading against existing resting orders (taking liquidity).",
+            cn: 'ExKnox支持"待定下单"（resting order）来增加流动性，以及交易"待定下单"来减少流动性。',
+            fr: "ExKnox supportes les ordres restant (l'ajout de liquidite) et marchander contre des ordres restant (prise de liquidite).",
+            es: "ExKnox apoya descansando órdenes tales como la adición de liquidez y el comercio contre órdenes existentes como descansando Tomando liquidez..",
+            ko: "ExKnox는 주문목록에 남아있는 주문(유동성 추가)과 존재하는 주문에 대응하는 거래(유동성 인수)를 지원합니다."
         },
         trade_4: {
             en: 'To create a resting order, fill out the "Buy" or "Sell" form at the top of the page. The order expires in the number of blocks you specify (1 block &#8776; 15 seconds).',
@@ -11775,11 +11775,11 @@ return validator.normalizeEmail = function(email, options) {
             ko: '주문을 취소하시는 경우, 주문목록에서 당신의 주문을 클릭하시고 "취소" 버튼을 누를 수 있습니다. 이렇게 되면 이더리움 트랜잭션이 전송되고, 일단 컨펌되면 주문이 취소됩니다. 이러한 경우에 가스 비용(이더리움 거래 수수료)가 부과되고, 만기까지 주문을 남겨두는 경우 가스 비용이 들지 않습니다.'
         },
         trade_6: {
-            en: "When you submit a resting order, it gets broadcast to the world. The current broadcast channel is a Gitter chat room, but EtherDelta also supports using Ethereum events as a fallback broadcast mechanism.",
-            cn: '但你提交了一个"待定下单"后，它会广播到全球。现在的传播渠道是Gitter聊天室，但是EtherDelta也支持以太坊事件机制，用来保底。',
+            en: "When you submit a resting order, it gets broadcast to the world. The current broadcast channel is a Gitter chat room, but ExKnox also supports using Ethereum events as a fallback broadcast mechanism.",
+            cn: '但你提交了一个"待定下单"后，它会广播到全球。现在的传播渠道是Gitter聊天室，但是ExKnox也支持以太坊事件机制，用来保底。',
             fr: "Quand vous soumettez un ordre restant, il se diffuse dans le monde entier. Le canal de causerie principal s'appele Gitter chat room, mais Etherdelta supporte egalement des evenements ethereum en tant que moyen de diffusion alternative.",
             es: "Cuando se envía una orden de reposo que se transmitió al mundo. El canal de difusión actual es una sala de chat Gitter Etherdelta también promueve eventos Ethereum como un medio alternativo de distribución.",
-            ko: "주문을 남겨두기로 하시는 경우 현재 방송 채널인 Gitter 채팅룸에 알려지게 되며, EtherDelta는 또한 대체 방송 매커니즘으로 이더리움 이벤트를 사용하는 것을 지원합니다."
+            ko: "주문을 남겨두기로 하시는 경우 현재 방송 채널인 Gitter 채팅룸에 알려지게 되며, ExKnox는 또한 대체 방송 매커니즘으로 이더리움 이벤트를 사용하는 것을 지원합니다."
         },
         trade_7: {
             en: "The GUI scans for new orders being broadcast and displays them in the order book (offers on the left, bids on the right).",
@@ -11789,11 +11789,11 @@ return validator.normalizeEmail = function(email, options) {
             ko: "GUI는 새로운 주문을 스캔하여 방송하고 주문목록에 표시합니다(매도호가는 왼쪽, 매수호가는 오른쪽)."
         },
         trade_8: {
-            en: "A resting order represents a cryptographically signed intent to trade. Up until your order expires or is cancelled, anyone who has seen it can trade against it, assuming both traders have enough funds in their EtherDelta accounts. The GUI filters out orders that do not have funds to back them up. Partial fills are supported.",
+            en: "A resting order represents a cryptographically signed intent to trade. Up until your order expires or is cancelled, anyone who has seen it can trade against it, assuming both traders have enough funds in their ExKnox accounts. The GUI filters out orders that do not have funds to back them up. Partial fills are supported.",
             cn: '"待定下单"代表加密签名过的交易意向。在你的订单过期或取消以前，看见这个订单的任何人可以与它交易（前提是双方账号中有足够的币）。页面会过滤掉币的数量不够的订单。订单也可以部分成交。',
-            fr: "Un ordre restant represente une intention de commercer cryptographiquement signée. Jusqu'à ce que votre commande expire ou soit annulée, quiconque l'a vu peut échanger contre elle, en supposant que les deux commerçants disposent de suffisamment de fonds dans leurs comptes EtherDelta. Le remplissage partiel de l'ordre est egalement supporte.",
-            es: "Una orden restante representa intención de negociar firmado criptográficamente. Hasta que el pedido se cancela o expira cualquiera puede intercambiar sierra en contra de ella, suponiendo que ambos operadores tienen fondos suficientes en sus cuentas EtherDelta. También se admite el llenado parcial de la orden.",
-            ko: "주문목록에 남아있는 주문은 암호로 서명된 거래 의도를 나타냅니다. 주문이 만료되거나 취소될 때까지 양 거래자가 EtherDelta 계정에 충분한 자금을 보유하고 있다면 누구와도 거래할 수 있습니다. GUI는 충분한 자금이 뒷받침되지 않는 주문을 필터링합니다. 부분 거래가 지원됩니다."
+            fr: "Un ordre restant represente une intention de commercer cryptographiquement signée. Jusqu'à ce que votre commande expire ou soit annulée, quiconque l'a vu peut échanger contre elle, en supposant que les deux commerçants disposent de suffisamment de fonds dans leurs comptes ExKnox. Le remplissage partiel de l'ordre est egalement supporte.",
+            es: "Una orden restante representa intención de negociar firmado criptográficamente. Hasta que el pedido se cancela o expira cualquiera puede intercambiar sierra en contra de ella, suponiendo que ambos operadores tienen fondos suficientes en sus cuentas ExKnox. También se admite el llenado parcial de la orden.",
+            ko: "주문목록에 남아있는 주문은 암호로 서명된 거래 의도를 나타냅니다. 주문이 만료되거나 취소될 때까지 양 거래자가 ExKnox 계정에 충분한 자금을 보유하고 있다면 누구와도 거래할 수 있습니다. GUI는 충분한 자금이 뒷받침되지 않는 주문을 필터링합니다. 부분 거래가 지원됩니다."
         },
         trade_9: {
             en: 'To trade against an existing resting order, click "Buy" or "Sell" next to it in the order book and type in the volume you want to trade. The GUI will do one last check that the trade can cross (the funds are there and the order hasn\'t already traded), but if someone submits a transaction right before you do, your Ethereum transaction will fail because the order already traded.',
@@ -12041,32 +12041,32 @@ return validator.normalizeEmail = function(email, options) {
             ko: "주간"
         },
         balance_wallet_tooltip: {
-            en: "This is the balance in your personal Ethereum wallet, which you have connected to EtherDelta in the account dropdown (upper right).",
-            cn: "这是您的个人Ethereum钱包中的余额，您可以在帐户下拉列表（右上角）连接到EtherDelta。",
-            fr: "Il s'agit de l'équilibre de votre portefeuille personnel Ethereum, que vous avez connecté à EtherDelta dans le menu déroulant du compte (en haut à droite).",
-            es: "Este es el saldo de su billetera Ethereum personal, que ha conectado a EtherDelta en la lista desplegable de la cuenta (superior derecha).",
-            ko: "계정 드롭다운(우측 상단)에 표시 중인 EtherDelta와 연결된 당신의 이더리움 개인지갑의 잔고입니다."
+            en: "This is the balance in your personal Ethereum wallet, which you have connected to ExKnox in the account dropdown (upper right).",
+            cn: "这是您的个人Ethereum钱包中的余额，您可以在帐户下拉列表（右上角）连接到ExKnox。",
+            fr: "Il s'agit de l'équilibre de votre portefeuille personnel Ethereum, que vous avez connecté à ExKnox dans le menu déroulant du compte (en haut à droite).",
+            es: "Este es el saldo de su billetera Ethereum personal, que ha conectado a ExKnox en la lista desplegable de la cuenta (superior derecha).",
+            ko: "계정 드롭다운(우측 상단)에 표시 중인 ExKnox와 연결된 당신의 이더리움 개인지갑의 잔고입니다."
         },
         balance_etherdelta_tooltip: {
-            en: "This is the balance you have deposited from your personal Ethereum wallet to the EtherDelta smart contract.",
-            cn: "这是您从您的个人Ethereum钱包存储到EtherDelta智能合同的余额。",
-            fr: "C'est le solde que vous avez déposé de votre portefeuille Ethereum personnel au contrat intelligent EtherDelta.",
-            es: "Este es el saldo que ha depositado de su billetera Ethereum personal al contrato inteligente de EtherDelta.",
-            ko: "당신의 이더리움 개인지갑에서 EtherDelta 스마트 컨트랙트로 입금한 잔고입니다."
+            en: "This is the balance you have deposited from your personal Ethereum wallet to the ExKnox smart contract.",
+            cn: "这是您从您的个人Ethereum钱包存储到ExKnox智能合同的余额。",
+            fr: "C'est le solde que vous avez déposé de votre portefeuille Ethereum personnel au contrat intelligent ExKnox.",
+            es: "Este es el saldo que ha depositado de su billetera Ethereum personal al contrato inteligente de ExKnox.",
+            ko: "당신의 이더리움 개인지갑에서 ExKnox 스마트 컨트랙트로 입금한 잔고입니다."
         },
         deposit_tab: {
-            en: 'Use this to deposit from your personal Ethereum wallet ("Wallet" column) to the EtherDelta smart contract ("EtherDelta" column).',
-            cn: '使用它从您的个人Ethereum钱包（"钱包"栏）存入EtherDelta智能合同（"EtherDelta"栏）。',
+            en: 'Use this to deposit from your personal Ethereum wallet ("Wallet" column) to the ExKnox smart contract ("ExKnox" column).',
+            cn: '使用它从您的个人Ethereum钱包（"钱包"栏）存入ExKnox智能合同（"ExKnox"栏）。',
             fr: 'Utilisez ceci pour déposer auprès de votre portefeuille personnel Ethereum (colonne "Portefeuille") le contrat intelligent EtherDelta (colonne "EtherDelta").',
-            es: 'Utilícelo para depositar su billetera Ethereum personal (columna "Cartera") en el contrato inteligente EtherDelta (columna "EtherDelta").',
-            ko: '당신의 개인 이더리움 지갑("지갑" 행)에서 EtherDelta 스마트컨트랙트 ("EtherDelta" 행)로 입금하실 때 사용하세요.'
+            es: 'Utilícelo para depositar su billetera Ethereum personal (columna "Cartera") en el contrato inteligente ExKnox (columna "EtherDelta").',
+            ko: '당신의 개인 이더리움 지갑("지갑" 행)에서 ExKnox 스마트컨트랙트 ("ExKnox" 행)로 입금하실 때 사용하세요.'
         },
         withdraw_tab: {
-            en: 'Use this to withdraw from the EtherDelta smart contract ("EtherDelta" column) to your personal Ethereum wallet ("Wallet" column).',
-            cn: '使用它从EtherDelta智能合同（"EtherDelta"列）退回到您的个人Ethereum钱包（"钱包"列）。',
-            fr: 'Utilisez cette option pour retirer le contrat intelligent EtherDelta (colonne "EtherDelta") à votre carte personnelle Ethereum wallet (colonne "Portefeuille").',
-            es: 'Utilice esto para retirar del contrato inteligente EtherDelta (columna "EtherDelta") a su billetera personal Ethereum (columna "Cartera").',
-            ko: 'EtherDelta 스마트 컨트랙트("EtherDelta" 열)에서 당신의 이더리움 개인지갑("Wallet" column)으로 출금하실 때 사용하세요.'
+            en: 'Use this to withdraw from the ExKnox smart contract ("ExKnox" column) to your personal Ethereum wallet ("Wallet" column).',
+            cn: '使用它从ExKnox智能合同（"ExKnox"列）退回到您的个人Ethereum钱包（"钱包"列）。',
+            fr: 'Utilisez cette option pour retirer le contrat intelligent ExKnox (colonne "ExKnox") à votre carte personnelle Ethereum wallet (colonne "Portefeuille").',
+            es: 'Utilice esto para retirar del contrato inteligente ExKnox (columna "ExKnox") a su billetera personal Ethereum (columna "Cartera").',
+            ko: 'ExKnox 스마트 컨트랙트("ExKnox" 열)에서 당신의 이더리움 개인지갑("Wallet" column)으로 출금하실 때 사용하세요.'
         },
         transfer_tab: {
             en: 'Use this to transfer from your personal Ethereum wallet ("Wallet" column) to any other wallet.',
