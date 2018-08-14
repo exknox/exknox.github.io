@@ -9018,7 +9018,7 @@ return validator.normalizeEmail = function(email, options) {
                     return x.addr === tokenAddr
                 }).length && (tokenName = self.selectedToken.addr), 0 === self.config.tokens.filter(function(x) {
                     return x.addr === baseAddr
-                }).length && (baseName = self.selectedBase.addr), window.location.hash = "#" + tokenName + "-" + baseName, window.document.title = "Exknox " + tokenName + "/" + baseName
+                }).length && (baseName = self.selectedBase.addr), window.location.hash = "#" + tokenName + "-" + baseName, window.document.title = "ExKnox " + tokenName + "/" + baseName
             }, self.getDivisor = function(tokenOrAddress) {
                 var result = 1e18,
                     token = self.getToken(tokenOrAddress);
