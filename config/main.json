@@ -972,6 +972,6 @@
   ],
   "defaultPair": {
     "token": "PHI",
-    "base": "ETH"
+    "base": "DAI"
   }
 }
