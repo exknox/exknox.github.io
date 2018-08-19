@@ -37,8 +37,8 @@
   "ledgerPath": "m/44'/60'/0'/0",
   "bases": [
     {
-      "addr": "0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359",
-      "name": "DAI",
+      "addr": "0x0000000000000000000000000000000000000000",
+      "name": "ETH",
       "decimals": 18
     }
   ],
@@ -972,6 +972,6 @@
   ],
   "defaultPair": {
     "token": "PHI",
-    "base": "DAI"
+    "base": "ETH"
   }
 }
