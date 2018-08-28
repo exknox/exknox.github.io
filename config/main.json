@@ -22,7 +22,7 @@
   "gasOrder": 250000,
   "minOrderSize": 0.001,
   "socketServer": [
-    "http://api.cdex.live",
+    "http://api.cdex.live:8080",
   ],
   "userCookie": "EtherDelta",
   "eventsCacheCookie": "EtherDelta_eventsCache",
