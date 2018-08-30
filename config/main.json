@@ -967,6 +967,7 @@
     { "addr": "0xCB5e39C946ace85D6003C791ef445DD2629C2003", "name": "EKX", "decimals": 8 },
     { "addr": "0x5925f67d2767d937f47141dac24166b469558222", "name": "OLXA", "decimals": 2 },
     { "addr": "0x6667A56d8fCB35448eE8514936e6D6c4CcC86E97", "name": "GFC", "decimals": 8 },
+    { "addr": "0x2f2540218770da363dd3320b107f38fbeaf62472", "name": "EIB", "decimals": 18 },
     { "addr": "0xdAC17F958D2ee523a2206206994597C13D831ec7", "name": "USDT", "decimals": 6 }
     
   ],
