@@ -10,7 +10,7 @@
     { "addr": "0x91739eeb4f3600442ea6a42c43f7fa8cd8f78a3d", "info": "Deployed 06/30/2016" },
     { "addr": "0x0000000000000000000000000000000000000000", "info": "Zero contract" }
   ],
-  "ethTestnet": "ropsten",
+  "ethTestnet": "kovan",
   "ethChainId": 3,
   "ethProvider": "http://localhost:8545",
   "ethGasPrice": 20000000000,
@@ -29,7 +29,7 @@
   "etherscanAPIKey": "GCGR1C9I17TYIRNYUDDEIJH1K5BRPH4UDE",
   "tokens": [
     { "addr": "0x0000000000000000000000000000000000000000", "name": "ETH", "decimals": 18 },
-    { "addr": "0x40aade55175aaeed9c88612c3ed2ff91d8943964", "name": "1ST", "decimals": 18 }
+    { "addr": "0x5cFE823Aa99FEDeFEF3f497380D954e31Af533D0", "name": "CCDEBT", "decimals": 18 }
   ],
   "defaultPair": { "token": "1ST", "base": "ETH" },
   "pairs": [
