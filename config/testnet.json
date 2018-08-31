@@ -33,6 +33,6 @@
   ],
   "defaultPair": { "token": "1ST", "base": "ETH" },
   "pairs": [
-    { "token": "1ST", "base": "ETH" }
+    { "token": "CCDEBT", "base": "ETH" }
   ]
 }
