@@ -969,6 +969,7 @@
     { "addr": "0x6667A56d8fCB35448eE8514936e6D6c4CcC86E97", "name": "GFC", "decimals": 8 },
     { "addr": "0x2f2540218770da363dd3320b107f38fbeaf62472", "name": "EIB", "decimals": 18 },
     { "addr": "0x9a03c4d95a8e31e1e11a4319066475cd12b22dee", "name": "BHM", "decimals": 18 },
+    { "addr": "0x7bA19B7F7d106A9a1e0985397B94F38EEe0b555e", "name": "WIX", "decimals": 2 },
     { "addr": "0xdAC17F958D2ee523a2206206994597C13D831ec7", "name": "USDT", "decimals": 6 }
     
   ],
