@@ -971,6 +971,7 @@
     { "addr": "0x9a03c4d95a8e31e1e11a4319066475cd12b22dee", "name": "BHM", "decimals": 18 },
     { "addr": "0x7bA19B7F7d106A9a1e0985397B94F38EEe0b555e", "name": "WIX", "decimals": 2 },
     { "addr": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48", "name": "USDC", "decimals": 6 },
+    { "addr": "0x96Ef34BA488DD40c4bFc313C2694eab5a02509C3", "name": "D$", "decimals": 18 },
     { "addr": "0x26d16633fefBA0c46df9798F33c2792b3A9c4a48", "name": "OBOL", "decimals": 18 }
     
   ],
